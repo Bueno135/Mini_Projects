@@ -26,5 +26,6 @@ for i in range(nr_symbols):
 print(senha_easy)
 
 senha_hard = random.sample(senha_easy, len(senha_easy))
+senha_hard_def = "".join(senha_hard)
 
-print(senha_hard)
+print(senha_hard_def)
